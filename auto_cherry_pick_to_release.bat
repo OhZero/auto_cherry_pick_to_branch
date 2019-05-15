@@ -21,8 +21,8 @@ IF %cherry_pick_result% neq 0 goto error
 IF %cherry_pick_result% equ 0 goto finish
 
 :error
-mshta vbscript:msgbox("Cherry Pick Error",64,"Error")(window.close)
+mshta vbscript:msgbox("Cherry Pick Error",4144,"Error")(window.close)
 exit
 :finish
-mshta vbscript:msgbox("Cherry Pick Finish",64,"Finish")(window.close)
+mshta vbscript:msgbox("Cherry Pick Finish",4160,"Finish")(window.close)
 exit
